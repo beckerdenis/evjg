@@ -85,6 +85,7 @@ var bowlingState = {
         this.bowl.x = this.bowl.initialX;
         this.bowl.y = this.bowl.initialY;
         this.bowl.blocked = false;
+        this.bowl.animations.stop();
         this.step = 0;
     },
     
